@@ -1,0 +1,655 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="NW Medical Clinic">
+  <main>
+    <nav
+      class="navbar navbar-expand-lg
+		  shadow-md
+		  py-2
+		  bg-white
+		  relative
+		  flex
+		  items-center
+		  w-full
+		  justify-between"
+    >
+      <div
+        class="container
+			mx-auto
+			px-6
+			w-full
+			flex flex-wrap
+			items-center
+			justify-between"
+      >
+        <div class="flex items-center">
+          <img class="float-right pr-2 w-40" src="src/assets/logo.svg" />
+        </div>
+        <div class="text-gray-700">
+          <h6>9 Royal Vista Dr. NW</h6>
+          <h6>Unit 105</h6>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="px-6
+		  text-left
+		  bg-no-repeat bg-right bg-jumbo-bg
+		  text-nwm-blue
+		  py-44
+		  pb-16"
+    >
+      <div class="container mx-auto px-6">
+        <h1 class="text-5xl font-serif mt-0 mb-6 pb-7">Caring for life.</h1>
+
+        <div class="flex">
+          <div class="flex items-center p-3 bg-white rounded-lg shadow-md">
+            <div class="flex flex-col px-4 w-52">
+              <div class="text-gray-700 text-lg">
+                <strong>Phone: </strong><a
+                  class="text-nwm-blue hover:text-nwm-green"
+                  href="tel:403-984-2226">403-984-2226</a>
+              </div>
+              <div class="text-gray-700 text-lg">
+                <strong>Fax: </strong>403-984-2227
+              </div>
+            </div>
+            <div class="p-2">
+              <a
+                class="inline-block
+			  px-6
+			  py-2.5
+			  bg-nwm-blue
+			  text-white
+			  font-medium
+			  text-xs
+			  leading-tight
+			  uppercase
+			  rounded
+			  shadow-md
+			  hover:bg-nwm-green hover:shadow-lg
+			  focus:nwm-blue focus:shadow-lg focus:outline-none focus:ring-0
+			  active:bg-blue-800 active:shadow-lg
+			  transition
+			  duration-150
+			  ease-in-out"
+                data-mdb-ripple="true"
+                data-mdb-ripple-color="light"
+                href="https://booking.medeohealth.com/northwest-medical-clinic"
+                role="button">BOOK NOW!</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-full bg-gray-100">
+      <div class="container mx-auto px-6 flex md:flex-row flex-wrap">
+        <div class="w-full md:w-full text-left py-8">
+          <h2 class="text-3xl text-gray-700">Our Hours</h2>
+        </div>
+      </div>
+
+      <div class="container mx-auto px-6 flex md:flex-row flex-wrap pb-10">
+        <div
+          class="grid
+				  w-full
+				  grid-flow-col
+				  md:w-1/2
+				  text-left text-gray-700 text-xl"
+        >
+          <div class="grid grid-cols-3">
+            <div class="font-serif text-left text-nwm-blue">Monday</div>
+            <div class="">
+              <img class="float-right pr-2" src="src/assets/arrow.svg" />
+            </div>
+            <div class="font-sans text-left text-gray-700">
+              9<sup>00</sup>am-3<sup>00</sup>pm
+            </div>
+
+            <div class="text-left text-nwm-blue">Tuesday</div>
+            <div class="">
+              <img class="float-right pr-2" src="src/assets/arrow.svg" />
+            </div>
+            <div class="font-sans text-left text-gray-700">
+              9<sup>00</sup>am-3<sup>00</sup>pm
+            </div>
+
+            <div class="font-serif text-left text-nwm-blue">Wednesday</div>
+            <div class="">
+              <img class="float-right pr-2" src="src/assets/arrow.svg" />
+            </div>
+            <div class="font-sans text-left text-gray-700">
+              9<sup>00</sup>am-3<sup>00</sup>pm
+            </div>
+
+            <div class="font-serif text-left text-nwm-blue">Thursday</div>
+            <div class="">
+              <img class="float-right pr-2" src="src/assets/arrow.svg" />
+            </div>
+            <div class="font-sans text-left text-gray-700">
+              9<sup>00</sup>am-3<sup>00</sup>pm
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="grid
+				  w-full
+				  grid-flow-col
+				  md:w-1/2
+				  text-left text-gray-700
+				  font-serif
+				  text-xl"
+        >
+          <div class="grid grid-cols-3">
+            <div class="font-serif text-left text-nwm-blue">Friday</div>
+            <div class="">
+              <img class="float-right pr-2" src="src/assets/arrow.svg" />
+            </div>
+            <div class="font-sans text-left text-gray-700">
+              9<sup>00</sup>am-3<sup>00</sup>pm
+            </div>
+
+            <div class="font-serif text-left text-nwm-blue">Saturday</div>
+            <div class="">
+              <img class="float-right pr-2" src="src/assets/arrow.svg" />
+            </div>
+            <div class="font-sans text-left text-gray-700">CLOSED</div>
+
+            <div class="font-serif text-left text-nwm-blue">Sunday</div>
+            <div class="">
+              <img class="float-right pr-2" src="src/assets/arrow.svg" />
+            </div>
+            <div class="font-sans text-left text-gray-700">CLOSED</div>
+
+            <div class="text-left text-nwm-blue">&nbsp;</div>
+            <div class="">
+              <img class="float-right pr-2" src="" />
+            </div>
+            <div class="text-left text-gray-700"></div>
+          </div>
+        </div>
+		
+        <div class="text-gray-700 pt-4">
+          <p>
+            Our clinic operates Monday through Friday and is closed on weekends.
+            Existing patients attached to our clinic can reach us at 9 am on
+            weekdays for urgent matters and may be scheduled for a same-day
+            appointment. Please note that these appointments are exclusively for
+            urgent concerns. In case your physician is unavailable, another
+            physician at our clinic may attend to you.
+          </p>
+        </div>
+		<div class="text-gray-700 pt-4">
+			<p>
+			We are pleased to announce a walk-in physician, Dr. Scott Balyea who can see all walk ins on Wednesdays.
+			Please call the clinic to book an appointment or simply walk in on Wednesday 9am- 3pm to see him.
+			</p>
+		</div>
+        <div class="text-gray-700 pt-4">
+			<p>
+			For weekend and after-hours care, we highly recommend calling 811 and
+			arranging an appointment at Access 365 after-hours clinic. This
+			ensures seamless continuity of care as your physician will receive
+			prompt updates about your visit.
+			</p>
+		</div>
+		<div class="text-gray-700 pt-4">
+			<p>
+			As a friendly reminder, if you haven’t already, please sign up with
+			Medeo as it can streamline direct communication with your healthcare
+			provider in the future.
+			</p>
+		</div>
+		<div class="text-gray-700 pt-4">
+			<p>
+			Please check with the front desk when you are in clinic to make sure we have your updated email address in our system to ensure effective future communication from your physician.
+			</p>
+		</div>
+		<div class="text-gray-700 pt-4">
+			<p>
+			We also are offering a free eye screening exam for adults available by booking. Please ask your physician or front desk to book a free detailed eye exam.
+			</p>
+		</div>
+      </div>
+    </div>
+  </main>
+  <!-- <p class="instructions">
+			To get started, open the directory <code>src/pages</code> in your project.<br />
+			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+		</p>
+		<ul role="list" class="link-card-grid">
+			<Card
+				href="https://docs.astro.build/"
+				title="Documentation"
+				body="Learn how Astro works and explore the official API docs."
+			/>
+			<Card
+				href="https://astro.build/integrations/"
+				title="Integrations"
+				body="Supercharge your project with new frameworks and libraries."
+			/>
+			<Card
+				href="https://astro.build/themes/"
+				title="Themes"
+				body="Explore a galaxy of community-built starter themes."
+			/>
+			<Card
+				href="https://astro.build/chat/"
+				title="Community"
+				body="Come say hi to our amazing Discord community. ❤️"
+			/>
+		</ul> -->
+  <div class="w-full bg-white">
+    <div class="container mx-auto px-6 flex md:flex-row flex-wrap pb-10">
+      <div class="w-full md:w-full text-left py-8">
+        <h2 class="text-3xl text-gray-700">Announcements</h2>
+      </div>
+
+      <h3 class="flex flex-row text-nwm-blue w-full md:w-full text-left">
+        Dr. Marlatt Joins the Team
+      </h3>
+      <div class="flex flex-row text-gray-700 pb-6">
+        <p>
+          Dr. Wanda Marlatt recently moved from Dawson Creek, BC to Calgary to
+          be closer to her family. She obtained a Bachelor of Science degree
+          from Brandon University and an MD degree from the University of
+          Manitoba. She completed her family medicine residency with the
+          Regional Chiliwack Program through the University of British Columbia
+          in 1997. Dr. Marlatt has enjoyed being a family physician for the past
+          25 years and looks forward to establishing a practice in Calgary. Dr.
+          Matlatt appreciates a team approach in patient care and learning from
+          her trusted colleagues.
+        </p>
+      </div>
+      <h3 class="flex flex-row text-nwm-blue w-full md:w-full text-left">
+        Dr. Ginette Heeps has joined our clinic in June 2020.
+      </h3>
+      <div class="flex flex-row text-gray-700">
+        <p>
+          Dr. Heeps was qualified in 1998 from the University of Nottingham
+          Medical School in the UK and undertook General Practitioner (GP)
+          training in the Midlands. She has been a family physician since 2002.
+          She worked in a GP partnership and worked as a trainer of new GPs
+          until the summer of 2015, when she left the UK with her family to come
+          to work in Calgary. Her medical interests cover the whole spectrum of
+          family medicine, including child health, chronic disease management,
+          women's health and preventative medicine. She believes strongly in
+          communicating well with her patients and providing patient-centered
+          care.
+        </p>
+      </div>
+    </div>
+
+    <!-- Our Services -->
+    <div class="w-full bg-gray-100">
+      <div class="container mx-auto px-6 flex md:flex-row flex-wrap">
+        <div class="w-full md:w-full text-left py-8">
+          <h2 class="text-3xl text-gray-700">Our Services</h2>
+        </div>
+      </div>
+
+      <div class="container mx-auto px-8 pb-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+          <div class="flex
+					  text-xl
+					  p-3
+					  bg-gray-100">
+            <img class="float-right pr-2 w-8" src="src/assets/checkbox.svg" />
+
+            <div class="">
+              Comprehensive / annual medical exams from newborns to seniors.
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="flex
+					  text-xl
+					  p-3
+					  bg-gray-100">
+            <img
+              class="justify-items-start pr-2 w-8"
+              src="src/assets/checkbox.svg"
+            />
+            <div class="flex">Minor in-office procedures.</div>
+          </div>
+
+          <!--  -->
+          <div class="flex
+					  text-xl
+					  p-3
+					  bg-gray-100">
+            <img class="float-right pr-2 w-8" src="src/assets/checkbox.svg" />
+            Women’s health including breast exams and Pap smears.
+          </div>
+          <div class="flex
+					  text-xl
+					  p-3
+					  bg-gray-100">
+            <img class="float-right pr-2 w-8" src="src/assets/checkbox.svg" />
+            WCB appointments.
+          </div>
+          <div class="flex
+					  text-xl
+					  p-3
+					  bg-gray-100">
+            <img class="float-right pr-2 w-8" src="src/assets/checkbox.svg" />
+            Prenatal exams until OB care is available.
+          </div>
+          <div class="flex
+					  text-xl
+					  p-3
+					  bg-gray-100">
+            <img class="float-right pr-2 w-8" src="src/assets/checkbox.svg" />
+            Uninsured services.
+          </div>
+          <div class="flex
+					  text-xl
+					  p-3
+					  bg-gray-100">
+            <img class="float-right pr-2 w-8" src="src/assets/checkbox.svg" />
+            Intrauterine device insertion / removal and management.
+          </div>
+          <div class="flex
+					  text-xl
+					  p-3
+					  bg-gray-100">
+            <img class="float-right pr-2 w-8" src="src/assets/checkbox.svg" />
+            Drivers medical exams.
+          </div>
+          <div class="flex
+					  text-xl
+					  p-3
+					  bg-gray-100">
+            <img class="float-right pr-2 w-8" src="src/assets/checkbox.svg" />
+            Men’s health.
+          </div>
+          <div class="flex
+					  text-xl
+					  p-3
+					  bg-gray-100">
+            <img class="float-right pr-2 w-8" src="src/assets/checkbox.svg" />
+            Flu / other vaccines.
+          </div>
+          <div class="flex
+					  text-xl
+					  p-3
+					  bg-gray-100">
+            <img class="float-right pr-2 w-8" src="src/assets/checkbox.svg" />
+            Management of migraines / Botox injections.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Our Team -->
+  <div class="w-full bg-white">
+    <div class="container mx-auto px-6 flex md:flex-row flex-wrap">
+      <div class="w-full md:w-full text-left py-8">
+        <h2 class="text-3xl text-gray-700">Our Team</h2>
+      </div>
+    </div>
+
+    <div class="container mx-auto px-8 pb-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div
+          class="grid-cols-1
+					text-center
+					text-xl
+					font-bold
+					border-2 border-gray-300
+					rounded-xl
+					p-6
+					bg-gray-100"
+        >
+          Dr. Vlad Iurasco
+        </div>
+        <div
+          class="grid-cols-1
+					text-center
+					text-xl
+					font-bold
+					border-2 border-gray-300
+					rounded-xl
+					p-6
+					bg-gray-100"
+        >
+          Dr. Sobia Rajput
+        </div>
+        <div
+          class="grid-cols-1
+					text-center
+					text-xl
+					font-bold
+					border-2 border-gray-300
+					rounded-xl
+					p-6
+					bg-gray-100"
+        >
+          Dr. Ayesha N. Rahim
+        </div>
+        <div
+          class="grid-cols-1
+					text-center
+					text-xl
+					font-bold
+					border-2 border-gray-300
+					rounded-xl
+					p-6
+					bg-gray-100"
+        >
+          Dr. Robin Cohen
+        </div>
+        <div
+          class="grid-cols-1
+					text-center
+					text-xl
+					font-bold
+					border-2 border-gray-300
+					rounded-xl
+					p-6
+					bg-gray-100"
+        >
+          Dr. Ginette Heeps
+        </div>
+        <div
+          class="grid-cols-1
+					text-center
+					text-xl
+					font-bold
+					border-2 border-gray-300
+					rounded-xl
+					p-6
+					bg-gray-100"
+        >
+          Dr. Wanda Marlatt
+        </div>
+        <div
+          class="grid-cols-1
+					text-center
+					text-xl
+					font-bold
+					border-2 border-gray-300
+					rounded-xl
+					p-6
+					bg-gray-100"
+        >
+          Dr. Marcel Adam
+          <div class="grid-cols-1 justify-center text-xl font-light">
+            Lumps & Bumps
+          </div>
+        </div>
+        <div
+          class="grid-cols-1
+					text-center
+					text-xl
+					font-bold
+					border-2 border-gray-300
+					rounded-xl
+					p-6
+					bg-gray-100"
+        >
+          Dr. Xuemei Li
+          <div class="grid-cols-1 justify-center text-xl font-light">
+            Internal Medicine
+          </div>
+        </div>
+        <div
+          class="grid-cols-1
+					text-center
+					text-xl
+					font-bold
+					border-2 border-gray-300
+					rounded-xl
+					p-6
+					bg-gray-100"
+        >
+          Dajana Domazet
+          <div class="grid-cols-1 justify-center text-xl font-light">
+            Clinical Pharmacist
+          </div>
+        </div>
+        <div
+          class="grid-cols-1
+					text-center
+					text-xl
+					font-bold
+					border-2 border-gray-300
+					rounded-xl
+					p-6
+					bg-gray-100"
+        >
+          Leianne Bouillet
+          <div class="grid-cols-1 justify-center text-xl font-light">
+            Behavioural Health Counselor
+          </div>
+        </div>
+        <div
+          class="grid-cols-1
+					text-center
+					text-xl
+					font-bold
+					border-2 border-gray-300
+					rounded-xl
+					p-6
+					bg-gray-100"
+        >
+          Kimber Keith
+          <div class="grid-cols-1 justify-center text-xl font-light">
+            Health Management Nurse
+          </div>
+        </div>
+        <div
+          class="grid-cols-1
+					text-center
+					text-xl
+					font-bold
+					border-2 border-gray-300
+					rounded-xl
+					p-6
+					bg-gray-100"
+        >
+          Patrick Leung
+          <div class="grid-cols-1 justify-center text-xl font-light">
+            Respiratory Therapist
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2502.7102834174493!2d-114.20974961974221!3d51.15069347967811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5371695701bbaf4d%3A0x4633592c10f42ff3!2sNW%20Medical%20Clinic!5e0!3m2!1sen!2sca!4v1570994866523!5m2!1sen!2sca"
+      width="100%"
+      height="250"
+      frameborder="0"
+    ></iframe>
+    <div class="w-full bg-nwm-lblue h-32 text-center p-3">
+      <div class="text-gray-700 text-xl">
+        <strong>Phone:</strong> <a class="text-nwm-blue hover:text-nwm-green" href="tel:403-984-2226">403-984-2226</a>
+      </div>
+      <div class="text-gray-700 text-xl">
+        <strong>Fax:</strong> 403-984-2227
+      </div>
+      <div class="p-2">
+        <a
+          class="
+            inline-block
+            px-6
+            py-2.5
+            bg-nwm-blue
+            text-white
+            font-medium
+            text-xs
+            leading-tight
+            uppercase
+            rounded
+            shadow-md
+            hover:bg-nwm-green hover:shadow-lg
+            focus:nwm-blue focus:shadow-lg focus:outline-none focus:ring-0
+            active:bg-blue-800 active:shadow-lg
+            transition
+            duration-150
+            ease-in-out
+          "
+          data-mdb-ripple="true"
+          data-mdb-ripple-color="light"
+          href="https://booking.medeohealth.com/northwest-medical-clinic"
+          role="button"
+          >BOOK NOW!</a
+        >
+      </div>
+    </div>
+    <!-- second footer -->
+    <div class="w-full bg-nwm-blue">
+      <div class="container mx-auto p-4">
+        <div
+          class="
+            grid grid-cols-1
+            md:grid-cols-2
+            lg:grid-cols-2
+            gap-6
+            md:divide-x-2
+          "
+        >
+          <div class="text-white flex justify-center text-xl">
+            9 Royal Vista Dr. NW Unit 105
+          </div>
+          <div class="text-white flex justify-center text-xl">
+            © 2024 NW Medical Clinic
+          </div>
+        </div>
+      </div>
+    </div>
+</Layout>
+
+<style>
+  main {
+    /* margin: auto; */
+    /* padding: 1rem; */
+    /* width: 800px; */
+    /* max-width: calc(100% - 2rem); */
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .astro-a {
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    transform: translatex(-50%);
+    width: 220px;
+    height: auto;
+    z-index: -1;
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1;
+	 }
+</style>
