@@ -3,7 +3,6 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="NW Medical Clinic">
-  <main>
     <nav
       class="navbar navbar-expand-lg
 		  shadow-md
@@ -110,7 +109,7 @@ import Layout from "../layouts/Layout.astro";
               9<sup>00</sup>am-3<sup>00</sup>pm
             </div>
 
-            <div class="text-left text-nwm-blue">Tuesday</div>
+            <div class="font-serif text-left text-nwm-blue">Tuesday</div>
             <div class="">
               <img class="float-right pr-2" src="../assets/arrow.svg" />
             </div>
@@ -184,12 +183,7 @@ import Layout from "../layouts/Layout.astro";
             physician at our clinic may attend to you.
           </p>
         </div>
-		<div class="text-gray-700 pt-4">
-			<p>
-			We are pleased to announce a walk-in physician, Dr. Scott Balyea who can see all walk ins on Wednesdays.
-			Please call the clinic to book an appointment or simply walk in on Wednesday 9am- 3pm to see him.
-			</p>
-		</div>
+
         <div class="text-gray-700 pt-4">
 			<p>
 			For weekend and after-hours care, we highly recommend calling 811 and
@@ -217,37 +211,21 @@ import Layout from "../layouts/Layout.astro";
 		</div>
       </div>
     </div>
-  </main>
-  <!-- <p class="instructions">
-			To get started, open the directory <code>../pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
-			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
-			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul> -->
+
   <div class="w-full bg-white">
+
     <div class="container mx-auto px-6 flex md:flex-row flex-wrap pb-10">
       <div class="w-full md:w-full text-left py-8">
         <h2 class="text-3xl text-gray-700">Announcements</h2>
+      </div>
+
+      <h3 class="flex flex-row text-nwm-blue w-full md:w-full text-left">
+        Dr. Scott Balyea
+      </h3>
+      <div class="flex flex-row text-gray-700 pb-6">
+        <p>
+          We are pleased to announce a walk-in physician, Dr. Scott Balyea who can see all walk ins on Wednesdays. Please call the clinic to book an appointment or simply walk in on Wednesday 9am- 3pm to see him.
+        </p>
       </div>
 
       <h3 class="flex flex-row text-nwm-blue w-full md:w-full text-left">
@@ -266,6 +244,7 @@ import Layout from "../layouts/Layout.astro";
           her trusted colleagues.
         </p>
       </div>
+
       <h3 class="flex flex-row text-nwm-blue w-full md:w-full text-left">
         Dr. Ginette Heeps has joined our clinic in June 2020.
       </h3>
@@ -443,7 +422,7 @@ import Layout from "../layouts/Layout.astro";
 					p-6
 					bg-gray-100"
         >
-          Dr. Robin Cohen
+          Dr. Scott Balyea
         </div>
         <div
           class="grid-cols-1
@@ -497,21 +476,6 @@ import Layout from "../layouts/Layout.astro";
           Dr. Xuemei Li
           <div class="grid-cols-1 justify-center text-xl font-light">
             Internal Medicine
-          </div>
-        </div>
-        <div
-          class="grid-cols-1
-					text-center
-					text-xl
-					font-bold
-					border-2 border-gray-300
-					rounded-xl
-					p-6
-					bg-gray-100"
-        >
-          Dajana Domazet
-          <div class="grid-cols-1 justify-center text-xl font-light">
-            Clinical Pharmacist
           </div>
         </div>
         <div
