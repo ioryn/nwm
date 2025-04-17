@@ -4,7 +4,7 @@ export default {
 	theme: {
 		extend: {
 			backgroundImage: {
-				'jumbo-bg': "url('../assets/nwmain.png')",
+				'jumbo-bg': "url('../assets/nwmain2.png')",
 			},
 			colors: {
 			  // primary: defaultTheme.colors.green
